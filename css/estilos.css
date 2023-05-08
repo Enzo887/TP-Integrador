@@ -1,0 +1,50 @@
+
+
+.filtro{
+
+    filter: brightness(50%);
+}
+
+.texto_arriba {
+    position: relative;
+    z-index:1;
+    width: 500px;
+    /* width: 520px;
+    padding-right: 20px; */
+    /* margin-left: 58rem;
+    margin-top: 25rem; */
+    
+
+}
+
+.fondo{
+    background-color: #353a40;
+    padding: 20px;
+    
+    
+}
+
+.altura{
+    height: 540px;
+}
+
+@media (min-width:992px){
+
+
+    .fondo{
+        background-color: transparent;
+        padding: 0;
+        
+    }
+
+    .altura{
+        height: 620px;
+    }
+    
+
+
+}
+
+
+
+
